@@ -6,7 +6,7 @@ pkgver=0.0.0
 pkgrel=1
 pkgdesc="Saitek/Logitech X-56 HOTAS PyQt6 RGB utility"
 arch=('x86_64')
-url="https://github.com/PoDix/x56-rgb-utility"
+url="https://github.com/PoDiax/X-56-HOTAS-PyQt6-RGB-utility"
 license=('MIT')
 depends=(
   'libusb'
@@ -23,7 +23,7 @@ optdepends=(
 provides=('x56linux')
 conflicts=('x56linux')
 source=(
-  "git+https://github.com/PoDix/x56-rgb-utility.git"
+  "git+https://github.com/PoDiax/X-56-HOTAS-PyQt6-RGB-utility.git"
   "x56gui-launcher"
   "x56gui.desktop"
 )
