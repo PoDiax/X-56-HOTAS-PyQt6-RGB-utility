@@ -2,8 +2,8 @@
 A Python GUI for Saitek/Logitech X-56 HOTAS, RGB control with per-device selection, all-devices apply, refresh, and quick presets.
 
 Currently working with these devices:  
-0738:a221 Mad Catz, Inc. Saitek Pro Flight X-56 Rhino Throttle
-0738:2221 Mad Catz, Inc. Saitek Pro Flight X-56 Rhino Stick
+- 0738:a221 Mad Catz, Inc. Saitek Pro Flight X-56 Rhino Throttle
+- 0738:2221 Mad Catz, Inc. Saitek Pro Flight X-56 Rhino Stick
 
 ### Requirements
 
@@ -17,17 +17,20 @@ Currently working with these devices:
 
 Install system dependencies:
 
-`sudo apt update`
-
-`sudo apt install -y python3 python3-venv libusb-1.0-0`
+```bash
+sudo apt update
+sudo apt install -y python3 python3-venv libusb-1.0-0
+```
 
 Create virtual environment and install Python dependencies:
 
-`python3 -m venv .venv`
+```bash
+python3 -m venv .venv
 
-`source .venv/bin/activate`
+source .venv/bin/activate
 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
+```
 
 #### Arch Linux (AUR)
 
@@ -38,13 +41,15 @@ Planned: package will be added later.
 
 From the repository root:
 
-`python3 -m venv .venv`
+```bash
+python3 -m venv .venv
 
-`source .venv/bin/activate`
+source .venv/bin/activate
 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
-`python3 -m x56gui`
+python3 -m x56gui
+```
 
 On Linux, the GUI should detects missing X-56 udev rules and prompts to install them via `pkexec`.
 If your user still does not have USB access, run with appropriate permissions or configure udev rules manually for devices `0738:2221` and `0738:a221`.
