@@ -1,8 +1,8 @@
 # Maintainer: PoDiax <pd@pdx.ovh>
 
-_pkgname=x56linux
+_pkgname=X-56-HOTAS-PyQt6-RGB-utility
 pkgname=x56linux-git
-pkgver=0.0.0
+pkgver=r4.400c191
 pkgrel=1
 pkgdesc="Saitek/Logitech X-56 HOTAS PyQt6 RGB utility"
 arch=('x86_64')
