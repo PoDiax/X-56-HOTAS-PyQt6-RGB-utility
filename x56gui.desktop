@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=X-56 RGB Utility
+Comment=Configure X-56 RGB profiles and tray automation
+Exec=x56gui
+Terminal=false
+Categories=Utility;Settings;
+Keywords=x56;hotas;rgb;joystick;throttle;

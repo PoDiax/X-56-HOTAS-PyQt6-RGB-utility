@@ -1,0 +1,23 @@
+pkgbase = x56linux-git
+	pkgdesc = Saitek/Logitech X-56 HOTAS PyQt6 RGB utility
+	pkgver = 0.0.0
+	pkgrel = 1
+	url = https://github.com/PoDix/x56-rgb-utility
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	depends = libusb
+	depends = python
+	depends = python-pyqt6
+	depends = python-pyusb
+	optdepends = polkit: pkexec support for guided udev rule install from GUI
+	provides = x56linux
+	conflicts = x56linux
+	source = git+https://github.com/PoDix/x56-rgb-utility.git
+	source = x56gui-launcher
+	source = x56gui.desktop
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = x56linux-git
